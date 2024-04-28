@@ -1,2 +1,1 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-var arr3 = "jones".split('');
+const merge = (a, b) => [...a, ...b];
