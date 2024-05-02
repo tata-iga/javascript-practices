@@ -1,2 +1,2 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const isTabInView = () => !document.hidden;
+console.log(1 +  "2" + "2");
+const channel = getChannel(computedAppVersion);
