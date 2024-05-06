@@ -1,2 +1,1 @@
-const lastElement = arr => arr[arr.length - 1];
-const channel = getChannel(computedAppVersion);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
