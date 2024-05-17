@@ -1,1 +1,1 @@
-const isArray = (arr) => Array.isArray(arr);
+const channelName = getChannelName(channel);
