@@ -1,2 +1,3 @@
-var arr1 = "john".split('');
-const stringReverse = str => str.split("").reverse().join("");
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+[foo, bar] = [bar, foo];
+var DELIM_SIZE = 4;
