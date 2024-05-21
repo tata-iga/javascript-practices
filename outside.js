@@ -1,2 +1,2 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const fullName = name || 'buddy';
+const minNumber = arr => Math.min(...arr);
+console.log( "A" - "B" + "2");
