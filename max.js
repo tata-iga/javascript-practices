@@ -1,2 +1,3 @@
-console.log("1 || 2 = "+(1 || 2));
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const goToTop = () => window.scrollTo(0, 0);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const executableName = getExecutableName(channel, appName);
