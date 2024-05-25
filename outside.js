@@ -1,2 +1,2 @@
-const minNumber = arr => Math.min(...arr);
-console.log( "A" - "B" + "2");
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const channel = getChannel(computedAppVersion);
