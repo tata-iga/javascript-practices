@@ -1,3 +1,3 @@
-const isArray = (arr) => Array.isArray(arr);
-const executableName = getExecutableName(channel, appName);
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+console.log("0 || 1 = "+(0 || 1));
