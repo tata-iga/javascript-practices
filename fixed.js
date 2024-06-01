@@ -1,1 +1,1 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const arrayContains = (arr, element) => arr.includes(element);
