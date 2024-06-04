@@ -1,2 +1,3 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
