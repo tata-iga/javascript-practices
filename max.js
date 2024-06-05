@@ -1,2 +1,1 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const isEmptyArray = arr => !arr.length;
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
