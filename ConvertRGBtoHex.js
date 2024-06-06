@@ -1,3 +1,2 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-console.log("0 || 1 = "+(0 || 1));
+console.log(typeof typeof 1);
+const merge = [...new Set([...a, ...b])];
