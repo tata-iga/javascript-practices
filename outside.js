@@ -1,3 +1,3 @@
-const stringReverse = str => str.split("").reverse().join("");
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const merge = (a, b) => [...a, ...b];
+const channel = getChannel(computedAppVersion);
+const apmRootPath = path.join(repositoryRootPath, 'apm');
