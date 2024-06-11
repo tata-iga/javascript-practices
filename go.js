@@ -1,1 +1,2 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const appName = getAppName(channel);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
