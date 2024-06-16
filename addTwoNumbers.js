@@ -1,3 +1,1 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const minNumber = arr => Math.min(...arr);
