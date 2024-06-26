@@ -1,2 +1,2 @@
-console.log("1 || 2 = "+(1 || 2));
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const fullName = name || 'buddy';
+const channel = getChannel(computedAppVersion);
