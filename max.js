@@ -1,2 +1,2 @@
-const fullName = name || 'buddy';
-const channel = getChannel(computedAppVersion);
+console.log("1 || 2 = "+(1 || 2));
+const value = ( 5 < 7 ) ? "True" : "False" ;
