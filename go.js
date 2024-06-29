@@ -1,1 +1,2 @@
-var arr3 = "jones".split('');
+const goToTop = () => window.scrollTo(0, 0);
+console.log( "A" - "B" + "2");
