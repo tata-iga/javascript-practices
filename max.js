@@ -1,2 +1,1 @@
-console.log("1 || 2 = "+(1 || 2));
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const timeFromDate = date => date.toTimeString().slice(0, 8);
