@@ -1,2 +1,2 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-var DELIM_SIZE = 4;
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
