@@ -1,2 +1,3 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+console.log(1 +  -"1" + "2");
+const merge = [...new Set([...a, ...b])];
