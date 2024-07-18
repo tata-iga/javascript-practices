@@ -1,3 +1,2 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-console.log(1 +  -"1" + "2");
-const merge = [...new Set([...a, ...b])];
+console.log("0 || 1 = "+(0 || 1));
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
