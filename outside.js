@@ -1,2 +1,3 @@
-console.log("0 || 1 = "+(0 || 1));
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const repositoryRootPath = path.resolve(__dirname, '..');
+const result = await makeHttpRequest(url);
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
