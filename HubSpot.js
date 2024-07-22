@@ -1,3 +1,1 @@
-console.log(false === '0');
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
