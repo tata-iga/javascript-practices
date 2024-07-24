@@ -1,3 +1,3 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-var DELIM_SIZE = 4;
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+[foo, bar] = [bar, foo];
