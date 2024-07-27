@@ -1,3 +1,3 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const allResults = await Promise.all(items.map(async (item) => {}));
-const merge = (a, b) => a.concat(b);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const toggleBool = () => (bool = !bool);
