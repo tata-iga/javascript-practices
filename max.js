@@ -1,2 +1,3 @@
+const getRandomBoolean = () => Math.random() >= 0.5;
 const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const updated = numbers.filter(element => element > 6);
+const stringReverse = str => str.split("").reverse().join("");
