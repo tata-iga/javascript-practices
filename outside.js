@@ -1,3 +1,2 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-const result = await makeHttpRequest(url);
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
