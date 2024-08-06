@@ -1,3 +1,2 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const stringReverse = str => str.split("").reverse().join("");
+const channel = getChannel(computedAppVersion);
+const merge = (a, b) => a.concat(b);
